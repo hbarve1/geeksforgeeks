@@ -1,0 +1,28 @@
+{
+  "name": "geeksforgeeks",
+  "version": "1.0.0",
+  "description": "This repository contains all the problems from https://www.geeksforgeeks.org solved using javascript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --color --coverage",
+    "test:watch": "jest --watch --color"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hbarve1/geeksforgeeks.git"
+  },
+  "author": "Himank Barve <hbarve1592@gmail.com>",
+  "license": "GNU GENERAL PUBLIC LICENSE",
+  "bugs": {
+    "url": "https://github.com/hbarve1/geeksforgeeks/issues"
+  },
+  "homepage": "https://github.com/hbarve1/geeksforgeeks#readme",
+  "devDependencies": {
+    "@babel/cli": "7.4.3",
+    "@babel/core": "7.4.3",
+    "@babel/node": "7.2.2",
+    "@babel/preset-env": "7.4.3",
+    "jest": "24.7.1",
+    "prettier": "1.17.0"
+  }
+}
