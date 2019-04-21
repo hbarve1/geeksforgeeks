@@ -1,5 +1,5 @@
 /**
- *
+ * @format
  */
 
 class MyArray {
@@ -8,8 +8,10 @@ class MyArray {
     this.data = {};
   }
 
-  insert(value) {
+  insert(value: Number) {
     this.length += 1;
     this.data[this.length] = value;
   }
 }
+
+export default MyArray;

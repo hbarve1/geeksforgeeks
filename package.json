@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --color --coverage",
-    "test:watch": "jest --watch --color"
+    "test:watch": "jest --watch --color",
+    "flow": "flow"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
     "@babel/core": "7.4.3",
     "@babel/node": "7.2.2",
     "@babel/preset-env": "7.4.3",
+    "@babel/preset-flow": "7.0.0",
     "jest": "24.7.1",
     "prettier": "1.17.0"
   }
